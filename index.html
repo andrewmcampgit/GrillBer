@@ -90,11 +90,14 @@ Fines for leftover carcass on grillbars.
         Email Address:<br>
         <input type="text" name="email"><br>
         Phone:<br>
-        <input type="text" name="phone"><br>
+        <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required></br>
 
         How likely are you to recommend to a friend?:<br>
         <input type="number" name="recommend"><br>
 
+        <button type="submit" form="form1" value="Submit">Submit</button>
       </form>
 
-      <button type="submit" form="form1" value="Submit">Submit</button>
+      
